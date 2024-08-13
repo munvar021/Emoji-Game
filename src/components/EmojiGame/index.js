@@ -107,4 +107,12 @@ const shuffledEmojisList = () => {
 
 */
 
-// Write your code here.
+// => Given emojis list with values id, emojiName, emojiUrl
+// => Initializing state
+// => NavBar
+// => Game Body
+//       ➡️ If game is in progress, it renderEmojisList. Otherwise, it renderScoreCard.
+//       ➡️ In renderEmojisList
+//             => It shuffles the emojisList and return renderEmojisList
+//       ➡️ In renderScoreCard
+//             => It renders, WinOrLoseCard
